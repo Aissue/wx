@@ -1,0 +1,6 @@
+<view>name:{{name}}</view>
+<view>name:{{age}}</view>
+<view wx:for="{{students}}">{{item.name}}-->{{item.age}}</view>
+<view>counter:{{counter}}</view>
+<button size='mini' bindtap='add'>+</button>
+<button size='mini' bindtap='sub'>-</button>
