@@ -25,6 +25,9 @@
       this.setData({
         counter: this.data.counter - 1
       })
+    },
+    getUserInfo(res){
+        console.log(res)
     }
   
     

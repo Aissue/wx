@@ -4,3 +4,13 @@
 <view>counter:{{counter}}</view>
 <button size='mini' bindtap='add'>+</button>
 <button size='mini' bindtap='sub'>-</button>
+
+<!-- 获取用户信息的方式 -->
+<view>
+  <button size='mini' lang='zh_CN' bindgetuserinfo='getUserInfo' open-type='getUserInfo'>
+  获取用户信息
+  </button>
+</view>
+
+<!-- 展示用户信息 -->
+<open-data type='userAvatarUrl' class='userinfo-avatar'></open-data>
